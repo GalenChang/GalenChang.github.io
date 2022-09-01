@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "From struggling to underline in Word to coding in Javascript"
+title: "From Struggling to Underline in Word to Coding in Javascript"
 # All dates must be YYYY-MM-DD format!
 date: 2022-08-31
 published: true
@@ -27,5 +27,4 @@ It would be very unfair to JavaScript for me to make a claim that it is good or 
 
 When I first learned about what Athletic Software Engineering and Workout of the Day were, I had a mild panic attack. I can make you a unit conversion program, no problem at all. But if you give me the details of what you want it to convert and tell me you want it in 10 minutes...we might have a problem here. It is a way of applying stressors and pressure that we will experience out in the working world. We get to practice quick thinking, working under time crunches, how to look up what we don't know efficiently, and other traits that will make us better programmers. Just like running soccer drills or practicing your free throws, getting the practice in now is preparing us for the future.
 
-## So where do I go from here?
-I keep practicing, learning, and become more confident in myself and my skills. It is amazing how quickly you can learn new things in the right environment with the right motivations. There have been so many situations where I don't think I can code a program or solve a problem due to inexperience and lack of knowledge. But I've been pleasantly surprised with how much I can dredge up from the depths of my brain and how quickly I can apply it to code something up. It's moments like this that keep me going, and I hope to get better as I move along my classes and finish my degree.
+It is amazing how quickly you can learn new things in the right environment with the right motivations. There have been so many situations where I didn't think I could code a program or solve a problem due to inexperience and lack of knowledge. But I've been pleasantly surprised with how much I can dredge up from the depths of my brain and how quickly I can apply it to code something up. It's moments like this that keep me going, and I hope to get better as I move along my classes and finish my degree.
