@@ -7,8 +7,7 @@
     "phone": "808-429-5931",
     "website": "https://GalenChang.github.io",
     "summary": [
-      "<p>I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii.  I expect to graduate in Spring, 2024.</p>",
-      "<p>Paragraph 2</p>",
+      "<p>I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii.  I expect to graduate in Spring, 2024.</p><p></p><p>Paragraph 2</p>",
     ],
     "location": { "address": "", "postalCode": "", "city": "Waipahu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
