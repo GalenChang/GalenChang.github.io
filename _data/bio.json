@@ -3,13 +3,13 @@
     "name": "Galen Chang",
     "label": "Computer Science Student",
     "picture": "https://github.com/GalenChang.png",
-    "email": "gchang7@hawaii.edu",
+    "email": "<p>gchang7@hawaii.edu</p><p>galenc12@gmail.com</p>",
     "phone": "808-429-5931",
     "website": "https://GalenChang.github.io",
     "summary": [
       "<p>Prior 17C (Cyber Operations) in the U.S. Army</p><p></p><p>Currently studying Computer Science at the Department of Information and Computer Sciences at the University of Hawaii at Manoa.  Expected graduation with a B.S. is in the Spring of 2024.</p>",
     ],
-    "location": { "My Address": "94-1042 Nawele Street", "postalCode": "96797", "city": "Waipahu", "countryCode": "USA", "region": "Hawaii" },
+    "location": { "My Address": "94\-1042 Nawele Street", "postalCode": "96797", "city": "Waipahu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "GalenChang", "url": "http://github.com/GalenChang" },
       { "network": "linkedin", "username": "galenchang", "url": "https://www.linkedin.com/in/galenchang/" },
