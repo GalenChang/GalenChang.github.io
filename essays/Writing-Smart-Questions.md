@@ -34,7 +34,7 @@ These points are pretty self explanatory.  Let's see some examples of good and b
 [How to understand the dimensions of Sparse matrix (Compressed Sparse Row format) generated in lightFM to map it to #features?
 ](https://stackoverflow.com/questions/73657067/how-to-understand-the-dimensions-of-sparse-matrix-compressed-sparse-row-format)
   
-<img width="1150px" class="rounded float-start pe-4" src="../img/SmartQuestionExample.png">
+<img width="1150px" src="../img/SmartQuestionExample.png">
   
 While I have no idea what this is asking, you can easily tell the poster is well informed about the subject they are stuck on.  The title is detailed and clear, and provides enough relevant information that people knoweldgeable in the subject will know what they are asking and can enter thread knowing what to expect.
 
