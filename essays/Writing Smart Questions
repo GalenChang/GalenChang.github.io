@@ -1,14 +1,14 @@
 ---
 layout: essay
 type: essay
-title: "Writing Smart Questions"
-date: 2022-09-8
+title: "From Struggling to Underline in Word to Coding in Javascript"
+# All dates must be YYYY-MM-DD format!
+date: 2022-08-31
 published: true
 labels:
-  - questions
-  - beginner
-  - guide
+  - Javascript
 ---
+
 
   I'm sure that you've experienced running into a problem that you can't seem to wrap your head around no matter how much effort you put into trying to understand it.  You might spend a day reading a textbook, another 10 hours trying to conjure help up on Google, rounded out by a few hours of trying to brute force progress doing the same things you've been doing for the past day.  The simple solution is often to ask for help.  After all, why spend all those hours bashing your head against the wall when you can reach out to someone with the knowledge and experience to help you in a fraction of the time?
 
