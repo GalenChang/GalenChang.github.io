@@ -19,12 +19,12 @@ labels:
 ## What is a "Smart Question"?
   A "smart question" is one that respectfully proves effort on your part to understand and provides enough information for someone to help you.  You can think of a smart question as one that follows these rules:
 
-  1) You understand the content your problem is addressing.  It is not appropriate to ask a multiplication problem if you don't understand addition.
-  2) Using this knowledge, provide the work where you attempted to solve the problem and are be to explain these attempts.  If you are looking for help on some code you wrote, provide the code in raw text, not an image.  This allows someone to copy paste your code to try and help you instead of having to hand jam it from an image.
-  3) It might also be a good idea include where you think something is going wrong, why it's wrong, and any bad results.
-  4) Keep the background info clear and succinct.  No one wants to read 5 pages of fluff for 2 paragraphs of pertinent information.
-  5) Your question must be clear, to the point, and descriptive of what kind of help you are looking for.
-  6) And most importantly, *be respectful*.  You are asking for help.  No one is obligated to respond, or even be nice to you.
+1. You understand the content your problem is addressing.  It is not appropriate to ask a multiplication problem if you don't understand addition.
+2. Using this knowledge, provide the work where you attempted to solve the problem and are be to explain these attempts.  If you are looking for help on some code you wrote, provide the code in raw text, not an image.  This allows someone to copy paste your code to try and help you instead of having to hand jam it from an image.
+3. It might also be a good idea include where you think something is going wrong, why it's wrong, and any bad results.
+4. Keep the background info clear and succinct.  No one wants to read 5 pages of fluff for 2 paragraphs of pertinent information.
+5. Your question must be clear, to the point, and descriptive of what kind of help you are looking for.
+6. And most importantly, *be respectful*.  You are asking for help.  No one is obligated to respond, or even be nice to you.
   
   These points are pretty self explanatory.  Let's see some examples of good and bad smart questions.
 
