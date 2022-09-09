@@ -34,7 +34,7 @@ These points are pretty self explanatory.  Let's see some examples of good and b
 [How to understand the dimensions of Sparse matrix (Compressed Sparse Row format) generated in lightFM to map it to #features?
 ](https://stackoverflow.com/questions/73657067/how-to-understand-the-dimensions-of-sparse-matrix-compressed-sparse-row-format)
   
-<img width="1150px" class="rounded float-start pe-4" src="../img/SmartQuestionExample.png">  
+<img width="1150px" class="img-fluid" src="../img/SmartQuestionExample.png">  
   
 While I have no idea what this is asking, you can easily tell the poster is well informed about the subject they are stuck on.  The title is detailed and clear, and provides enough relevant information that people knoweldgeable in the subject will know what they are asking and can enter thread knowing what to expect.
 
@@ -46,6 +46,6 @@ Looking at the contents of the post, it is written very well.  The text is forma
 
 The title of the post provides very little information.  Reading this brings more questions than it answers.  Is this a programmer asking the question?  A user?  What language is the code in?  What browser?  What event is leading to his loss of data?  The content of the post is not much better.
 
-<img width="1150px" class="rounded float-start pe-4" src="../img/SmartQuestionExample2.png">  
+<img width="1150px" class="img-fluid" src="../img/SmartQuestionExample2.png">  
   
 Now we know a little more, but there's still nothing to work off of.  What has this person tried to do?  Where is the code?  What kind of site is this?  Have you done any research on this?  What do you already know?  A question like this seems like the poster is asking for someone to do all the work for them.  To answer a question like this, one would have to explain everything, from how JavaScript stores data to several possible reasons why this data loss might be occuring.  Who knows if the user will even understand what you replied with?  No one has time for this sort of question.  This question was found in "Newest", and it will probably be left with very little views and no responses because of the lack of effort on the part of the poster.
