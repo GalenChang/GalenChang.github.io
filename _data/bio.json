@@ -6,45 +6,36 @@
     "email": "gchang7@hawaii.edu",
     "phone": "808-429-5931",
     "website": "https://GalenChang.github.io",
-    "summary": "Previous 17C (Cyber Operations) in the U.S. Army for ~6.5 years.  Currently in college studying Computer Science at the University of Hawaii at Manoa.  Expected to graduate in Spring of 2024 with a B.S. in Computer Science.",
-    "location": { "address": "", "postalCode": "", "city": "Waipahu", "countryCode": "USA", "region": "Hawaii" },
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "GalenChang", "url": "http://github.com/GalenChang" },
+      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
       { "network": "linkedin", "username": "galenchang", "url": "https://www.linkedin.com/in/galenchang/" },
     ]
   },
   "interests": [
-    { "name": "Algorithms" },
-    { "name": "Software Development" },
-    { "name": "Quality Assurance" },
-    { "name": "Korean Language" },
-    { "name": "Fitness" }
+    { "name": "Interactive media" },
+    { "name": "Neuromorphic Computing" },
+    { "name": "Quantum Computing" },
+    { "name": "Robotics" },
+    { "name": "3D Graphics" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Python" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Linux", "Windows", "Git and GitHub" ]
+      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii at Manoa, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2024)",
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2018)",
       "studyType": "B.S.",
-      "startDate": "2021-08-23",
-      "endDate": "Present",
-      "courses": [
-      ]
-    }
-    {
-      "institution": "University of Hawaii at Manoa, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2024)",
-      "studyType": "B.S.",
-      "startDate": "2021-08-23",
+      "startDate": "2013-09-01",
       "endDate": "Present",
       "courses": [
       ]
