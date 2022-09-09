@@ -3,13 +3,15 @@
     "name": "Galen Chang",
     "label": "Student",
     "picture": "https://github.com/GalenChang.png",
-    "email": "gchang7@hawaii.edu",
+    "email": "gchang7@hawaii.edu"  
+    "galenc12@gmail.com",
     "phone": "808-429-5931",
     "website": "https://GalenChang.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii."  
+    "I expect to graduate in Spring, 2024.",
+    "location": { "address": "", "postalCode": "", "city": "Waipahu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
+      { "network": "github", "username": "mmaluhia", "url": "http://github.com/galenchang" },
       { "network": "linkedin", "username": "galenchang", "url": "https://www.linkedin.com/in/galenchang/" },
     ]
   },
