@@ -38,7 +38,7 @@
       "studyType": "B.S.",
       "startDate": "2020-09",
       "endDate": "Present",
-      "courses": ["Programming Courses Teaching Languages such as Java and Python", "Program Structure using C/C++", "Software Engineering", "Algorithms", "Discrete Math", "Korean" ]
+      "courses": ["Programming Courses using Java and Python", "Program Structure using C/C++", "Software Engineering", "Algorithms", "Discrete Math", "Korean" ]
     },
     {
       "institution": "Hawaii Pacific University, Honolulu, HI",
@@ -46,12 +46,12 @@
       "studyType": "B.S. with Honors (Cum Laude)",
       "startDate": "2010-09",
       "endDate": "2014-05",
-      "courses": ["Organic Chemistry", "Molecular Biology", "Human Anatomy and Physiology", "Algorithms", "Biochemistry", "Genetics", "Korean"]
+      "courses": ["Organic Chemistry", "Molecular Biology", "Human Anatomy and Physiology", "Biochemistry", "Genetics", "Korean"]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
+      "company": "Hawaii Air National Guard",
       "position": "Web Developer",
       "website": "",
       "startDate": "2015-08-01",
@@ -63,8 +63,8 @@
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
+      "company": "U.S. Army",
+      "position": "17C - Cyber Operations",
       "website": "http://www.hawaii.edu/its/",
       "startDate": "2015-01-01",
       "endDate": "2016-03-15",
