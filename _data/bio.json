@@ -58,62 +58,56 @@
       "endDate": "Present",
       "summary": "Provide network defense for Hawaii Air National Guard systems and customers.",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Identify and eliminate intrusions or compromises.",
+        "Give security recommendations to customers to prevent recurrence.",
+        "Write mid level summaries of events and steps taken to mitigate/eliminate threat."
       ]
     },
     {
       "company": "U.S. Army",
       "position": "17C - Cyber Operations",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "website": "",
+      "startDate": "2014-07-28",
+      "endDate": "2020-10-27",
+      "summary": "Trained to execute offensive cyber operations (OCO) and accomplished numerous computer network exploitation (CNE) objectives to satisfy national requirements in support of foreign intelligence efforts.",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "NSA and USCC certified senior exploitation operator and trainer.",
+        "Conducted quality assurance and assisted in development of CNE tools and techniques.",
+        "Wrote standard operating procedure and policy for tradecraft, exploitation, and tool usage/testing.",
+        "Performed basic malware analysis in order to ascertain functionality, footprint, and persistence methods."
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
+      "organization": "",
+      "website": "",
+      "position": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
     },
     {
       "organization": "",
       "website": "",
-      "position": "Professional organization involvement",
+      "position": "Professional Student Organization Involvement",
       "startDate": "",
       "endDate": "",
       "summary": "",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Member, PANDA (Programming and Algorithms) at the University of Hawai'i at Manoa, 2022-Present",
+        "Member, Grey Hats at the University of Hawai'i at Manoa, 2022-Present",
+        "Club Representative, Anime Manga Society of Hawai'i at the University of Hawai'i at Manoa, 2022-Present"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Various U.S. Army Awards",
+      "date": "2014-2020",
+      "awarder": "U.S. Army",
+      "summary": "Awards for both military performance and occupational specialty."
     }
   ],
   "references": [
