@@ -7,19 +7,19 @@
     "phone": "808-429-5931",
     "website": "https://GalenChang.github.io",
     "summary": [
-      "<p>Prior 17C (Cyber Operations) in the U.S. Army</p><p></p><p>Currently studying Computer Science at the University of Hawaii at Manoa.<p></p><p>Expected graduation is in Spring, 2024.</p>",
+      "<p>Prior 17C (Cyber Operations) in the U.S. Army</p><p></p><p>Currently studying Computer Science at the University of Hawaii at Manoa.<p></p><p>Expected graduation is in Spring, 2024.</p>"
     ],
     "location": { "address": "94-1042 Nawele Street", "postalCode": "96797", "city": "Waipahu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "GalenChang", "url": "http://github.com/GalenChang" },
-      { "network": "linkedin", "username": "galenchang", "url": "https://www.linkedin.com/in/galenchang/" },
+      { "network": "linkedin", "username": "galenchang", "url": "https://www.linkedin.com/in/galenchang/" }
     ]
   },
   "interests": [
     { "name": "Cybersecurity" },
     { "name": "Penetration Testing" },
     { "name": "Software Engineering" },
-    { "name": "Korean Language and Culture" },
+    { "name": "Korean Language and Culture" }
   ],
   "skills": [
     {
@@ -52,11 +52,11 @@
   "work": [
     {
       "company": "Hawaii Air National Guard",
-      "position": "Web Developer",
+      "position": "1D7X1B - Systems Operations",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2022-05-20",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Provide network defense for Hawaii Air National Guard systems and customers.",
       "highlights": [
         "Maintain, update, and oversee official college newspaper website",
         "Drive, design and build student-community projects for UH Manoa"
