@@ -4,7 +4,7 @@ type: project
 image: img/FastFoodMenu/cartoon_burger.jpg
 title: "FastFoodMenu.js"
 date: 2022
-published: true
+published: false
 labels:
 - Javascript
 - JSFiddle
