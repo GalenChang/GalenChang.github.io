@@ -2,12 +2,13 @@
 layout: project
 type: project
 image: img/MultipleOfFour/4.png
-title: "TemperatureConverter.js"
+title: "MultipleOfFour.c"
 date: 2022
 published: true
 labels:
-- Javascript
-- JSFiddle
+- C
+- scanf
+- fgets
 summary: "Takes a user input integer and outputs a table listing if each number from 0 to the user input integer is divisible by 4."
 ---
 
