@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/FastFoodMenu/cartoon_burger.jpg
 title: "FastFoodMenu.js"
-date: 2022
+date: 2022-09-15
 published: true
 labels:
 - Javascript

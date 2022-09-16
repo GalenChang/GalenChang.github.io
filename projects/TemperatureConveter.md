@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/TemperatureConverter/basic_temperature_image.jpg
 title: "TemperatureConverter.js"
-date: 2022
+date: 2022-09-15
 published: true
 labels:
 - Javascript

@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/MultipleOfFour/4.png
 title: "MultipleOfFour.c"
-date: 2022
+date: 2022-09-15
 published: true
 labels:
 - C
