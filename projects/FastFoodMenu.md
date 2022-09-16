@@ -8,7 +8,7 @@ published: false
 labels:
 - Javascript
 - JSFiddle
-  summary: "Lets the user order from a generic fast food menu and output a warning if daily fat, sodium, or calories limit is exceeded."
+summary: "Lets the user order from a generic fast food menu and output a warning if daily fat, sodium, or calories limit is exceeded."
 ---
 
 <div class="text-center p-4">
