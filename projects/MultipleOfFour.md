@@ -8,31 +8,23 @@ published: true
 labels:
 - Javascript
 - JSFiddle
-summary: "Converts a user provided temperature and temperature scale to convert to the other temperature scale (ex 100 F will convert to 37.8 C)"
+summary: "Takes a user input integer and outputs a table listing if each number from 0 to the user input integer is divisible by 4."
 ---
 
 <div class="text-center p-4">
   <img width="300px" src="../img/MultipleOfFour/multiples_of_4.jpg" >
 </div>
 
-A very simple program that was done to practice Javascript fundamentals, which is a language we had only a week or two's worth of experience.  The program takes a user defined temperature and temperature scale to convert to the other temperature scale.  For example, if the user wants to covert 100 F, the program will output ~37.8 C.
-
-Unfortunately, the user must change the code to get their desired conversions.  On the bottom of the code, there is a section that looks like this:
-
-```cpp
-console.log(temperatureConverter(212, "F"));
-console.log(temperatureConverter(0, "C"));
-```
+What was supposed to be a simple homework C program that prompts a user for an integer and outputs a table from 0 to that integer and if those numbers are divisible by 4 turned into a multi day headache due to misinterpreting the instructions.  The intention of the assignment was to get us to use scanf to get the user input, which makes input such as "123abc" perfectly fine, as scanf will only accept the "123" part if %d or %i is passed as the first parameter.
 
 <div class="text-center p-4">
   <img width="300px" src="../img/MultipleOfFour/idk.png" >
 </div>
 
-The user can change the number and scale to whatever they want to convert.  The program also does error checking by verifying the user has entered a valid scale.  If the scale is not either F or C, then an error message is output to the user.
+Due to my apparent inability to read, I thought "123abc" was NOT to be considered proper input under any circumstances.  This lead me down a rabbit hole, researching fgets to try and search the user input for any invalid characters or negative input.  After many hours, I managed to craft the correct if statements to parse for invalid characters or negative numbers...but then I went down another rabbit hole.  Because I had no way of dynamically sizing the char array fgets puts the user's input into, I ran into the issue where I had a static 100 char array and any unused indices would return an invalid character.  After another several hours, I managed to make a for loop, counting the number of characters until a newline was encountered. 
 
-Working in groups of two, my partner and I managed to finish coding this up in just under 6 minutes.  Despite being a very basic task, it was slightly challenging due to us being unfamiliar with Javascript.  Fortunately, we have experience coding in Java, so there were not many huge differences between the two languages that we had to overcome.
+Working with others was strictly prohibited.  We could have very high level, abstract discussions about the concepts we needed to understand to do the homework, but could not directly discuss the homework itself or any methods to complete it.  I was effectively flying solo.  After spending days trying to understand fgets, scanf, the differences between the two and how they read and store user input, and crafting the right if statements, I came out a very tired, but much more knowledgeable C coder.  I also learned to read the instructions multiple times and read them carefully.
 
-This project was done as a "Workout of the Day" in ICS 314 (Software Engineering 1) at the University of Hawaii at Manoa.  [You can read the full details of the assignment here](https://courses.ics.hawaii.edu/ics314f22/morea/javascript-1/inclass-temperature-converter.html).
+This project was a homework assignment from ICS 212 (Program Structure) at the University of Hawaii at Manoa.  [You can read the full details of the assignment here](https://www2.hawaii.edu/~berneyk/ics212/hw/hw2/hw2.html).
 
-A link to the [JSFiddle can be found here](https://jsfiddle.net/galenc12/4zk7cLpb/10/).
-Alternatively, the code can be found at [this github repository](https://github.com/GalenChang/TemperatureConverter).
+The code can be found at [this github repository](https://github.com/GalenChang/MultipleOfFour).
