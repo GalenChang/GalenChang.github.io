@@ -8,7 +8,7 @@ published: true
 labels:
 - Javascript
 - JSFiddle
-  summary: "Converts a user provided temperature and temperature scale to convert to the other temperature scale (ex 100 F will convert to 37.8 C)"
+summary: "Converts a user provided temperature and temperature scale to convert to the other temperature scale (ex 100 F will convert to 37.8 C)"
 ---
 
 <div class="text-center p-4">
