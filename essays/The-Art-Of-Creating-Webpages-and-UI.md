@@ -14,14 +14,20 @@ labels:
 - CSS
 ---
 <p align="center">
-    <img width="800px" class="rounded" src="../img/The-Art-Of-Creating-Webpages-and-UI/Brain-partitions_QBS_ID_0432_L12_3Main-Featured-Image.webp">
+    <img width="800px" class="rounded" src="../img/The-Art-Of-Creating-Webpages-and-UI/left-brain-right-brain.webp">
 </p>
 
 I'm sure you have heard of the "left brain - right brain" idea.  If you haven't, let me explain.  There is a popular theory that people who are left brain dominant are logical people, excelling at subjects like math, while right brain dominant people are more creative, excelling at the arts.  Whether or not this is science or pseudoscience, it's an easy way to describe oneself.
 
 Me personally, I'm definitely a left brain person.  And after spending a week or two learning about HTML, CSS, and Bootstrap 5 and trying to replicate websites, I gained an appreciation for those who's brains are more balanced than mine.  I now understand why there are university level classes, and even majors, dedicated to UI and webpage design.
 
-## A good UI is more than just "looking pretty"
+## Looking good is critical to UI functionality
+The game "World of Warcraft" is highly configurable with mods and add-ons, allowing the player to change their UI to something that suits them best.  Many players, including those at the upper echelons of skill, choose to limit the amount of displayed UI so only the most vital of information shows, leaving the rest of the screen free so they can see what is going on around their character.  
+
+And then you have people who enjoy playing like this:
+<p align="center">
+    <img width="800px" class="rounded" src="../img/The-Art-Of-Creating-Webpages-and-UI/ugly-wow-ui.webp">
+</p>
 
 
 
