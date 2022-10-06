@@ -14,20 +14,15 @@ labels:
 - CSS
 ---
 
-<img width="200px" class="rounded float-center pe-4" src="../img/The-Art-Of-Creating-Webpages-and-UI/Brain-partitions_QBS_ID_0432_L12_3Main-Featured-Image.webp">
+<img width="800px" class="center pe-4" src="../img/The-Art-Of-Creating-Webpages-and-UI/Brain-partitions_QBS_ID_0432_L12_3Main-Featured-Image.webp">
 
 I'm sure you have heard of the "left brain - right brain" idea.  If you haven't, let me explain.  There is a popular theory that people who are left brain dominant are logical people, excelling at subjects like math, while right brain dominant people are more creative, excelling at the arts.  Whether or not this is science or pseudoscience, it's an easy way to describe oneself.
 
-Me personally, I'm definitely a left brain person.
+Me personally, I'm definitely a left brain person.  And after spending a week or two learning about HTML, CSS, and Bootstrap 5 and trying to replicate websites, I gained an appreciation for those who's brains are more balanced than mine.  I now understand why there are university level classes, and even majors, dedicated to UI and webpage design.
+
+## A good UI is more than just "looking pretty"
 
 
-## In the context of programming
-
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
-
-Consider that one of the most popular content management systems is also considered the most horrible - Wordpress. But really, is there anything that fills that need? If it was so easy in the first place, where is the solution? Where's the magic CMS that is designed well enough that everyone hops on the boat to use it?
-
-Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
 
 ## In the context of engineering
 
