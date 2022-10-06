@@ -14,7 +14,7 @@ labels:
 - CSS
 ---
 
-<img width="800px" class="center pe-4" src="../img/The-Art-Of-Creating-Webpages-and-UI/Brain-partitions_QBS_ID_0432_L12_3Main-Featured-Image.webp">
+<img width="800px" class="rounded mx-auto d-block" src="../img/The-Art-Of-Creating-Webpages-and-UI/Brain-partitions_QBS_ID_0432_L12_3Main-Featured-Image.webp">
 
 I'm sure you have heard of the "left brain - right brain" idea.  If you haven't, let me explain.  There is a popular theory that people who are left brain dominant are logical people, excelling at subjects like math, while right brain dominant people are more creative, excelling at the arts.  Whether or not this is science or pseudoscience, it's an easy way to describe oneself.
 
