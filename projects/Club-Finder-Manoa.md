@@ -29,7 +29,7 @@ Using Github repositories to store our code and issues to track requirements and
 
 Aside from code specific lessons learned, it was a very eye opening experience to work with others in a development environment.  I have previous experience working in groups, but everyone could largely do their own thing and then the day before presentation day, we would get together and quickly merge everything together.  Here, a change to one file could dramatically affect how the application as a whole worked.  Constant communication was essential.  We all had to be available to answer questions regarding the files we were working on.  For instance, I had made changes to the schema so some of my pages would work.  I chose to commit an incomplete (but fully functional) branch to main because I made changes that were core changes to the program, and the work the others were doing were reliant on my changes.
 
-## Links to the Project Homepage and Source Code
+## Want to Learn More?
 [If you would like to learn more about Club Finder Manoa, you can read about it on our project homepage.](https://club-finder-manoa.github.io/)
 
 [And the source code can be found here.](https://github.com/club-finder-manoa/club-finder-manoa).
