@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: ../img/ClubFinderManoa/homepage.png
+image: img/ClubFinderManoa/UHM.png
 title: "Club Finder Manoa"
 date: 2022-12-16
 published: true
@@ -12,7 +12,7 @@ labels:
 - MongoDB
 - Software Engineering
 - Teamwork
-  summary: "A central database of all the RIOs at UH Manoa that users can search through and save clubs of interest."
+summary: "A central database of all the RIOs at UH Manoa that users can search through and save clubs of interest."
 ---
 
 # Club Finder Manoa
