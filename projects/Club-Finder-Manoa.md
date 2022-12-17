@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://icemhh.pbrc.hawaii.edu/wp-content/uploads/2021/11/UHM.png
+image: ../img/ClubFinderManoa/homepage.png
 title: "Club Finder Manoa"
 date: 2022-12-16
 published: true
