@@ -32,5 +32,5 @@ Aside from code specific lessons learned, it was a very eye opening experience t
 ## Want to Learn More?
 [If you would like to learn more about Club Finder Manoa, you can read about it on our project homepage.](https://club-finder-manoa.github.io/)
 
-[And the source code can be found here.](https://github.com/club-finder-manoa/club-finder-manoa).
+[And the source code can be found here.](https://github.com/club-finder-manoa/club-finder-manoa)
 
