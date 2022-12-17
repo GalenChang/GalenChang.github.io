@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="MultipleOfFour.c | Galen Chang | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/GalenChang.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Galen Chang | Professional Portfolio">
+    <meta property="og:url" content="https://GalenChang.github.io/projects/MultipleOfFour.html">
+    <meta property="og:title" content="MultipleOfFour.c | Galen Chang | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/GalenChang.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>MultipleOfFour.c | Galen Chang | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Galen Chang</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">MultipleOfFour.c</h1>
+ <div class="text-center p-4">
+  <img width="300px" src="../img/MultipleOfFour/multiples_of_4.jpg" />
+</div>
+
+<p>What was supposed to be a simple homework C program that prompts a user for an integer and outputs a table from 0 to that integer and if those numbers are divisible by 4 turned into a multi day headache due to misinterpreting the instructions.  The intention of the assignment was to get us to use scanf to get the user input, which makes input such as “123abc” perfectly fine, as scanf will only accept the “123” part if %d or %i is passed as the first parameter.</p>
+
+<div class="text-center p-4">
+  <img width="300px" src="../img/MultipleOfFour/idk.png" />
+</div>
+
+<p>Due to my apparent inability to read, I thought “123abc” was NOT to be considered proper input under any circumstances.  This lead me down a rabbit hole, researching fgets to try and search the user input for any invalid characters or negative input.  After many hours, I managed to craft the correct if statements to parse for invalid characters or negative numbers…but then I went down another rabbit hole.  Because I had no way of dynamically sizing the char array fgets puts the user’s input into, I ran into the issue where I had a static 100 char array and any unused indices would return an invalid character.  After another several hours, I managed to make a for loop, counting the number of characters until a newline was encountered.</p>
+
+<p>Working with others was strictly prohibited.  We could have very high level, abstract discussions about the concepts we needed to understand to do the homework, but could not directly discuss the homework itself or any methods to complete it.  I was effectively flying solo.  After spending days trying to understand fgets, scanf, the differences between the two and how they read and store user input, and crafting the right if statements, I came out a very tired, but much more knowledgeable C coder.  I also learned to read the instructions multiple times and read them carefully.</p>
+
+<p>This project was a homework assignment from ICS 212 (Program Structure) at the University of Hawaii at Manoa.  <a href="https://www2.hawaii.edu/~berneyk/ics212/hw/hw2/hw2.html">You can read the full details of the assignment here</a>.</p>
+
+<p>The code can be found at <a href="https://github.com/GalenChang/MultipleOfFour">this github repository</a>.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

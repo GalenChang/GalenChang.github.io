@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="FastFoodMenu.js | Galen Chang | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/GalenChang.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Galen Chang | Professional Portfolio">
+    <meta property="og:url" content="https://GalenChang.github.io/projects/FastFoodMenu.html">
+    <meta property="og:title" content="FastFoodMenu.js | Galen Chang | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/GalenChang.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>FastFoodMenu.js | Galen Chang | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Galen Chang</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">FastFoodMenu.js</h1>
+ <div class="text-center p-4">
+  <img width="200px" src="../img/FastFoodMenu/burger.jpg" class="img-thumbnail" />
+  <img width="200px" src="../img/FastFoodMenu/fries.jpg" class="img-thumbnail" />
+  <img width="200px" src="../img/FastFoodMenu/shakes.jpg" class="img-thumbnail" />
+</div>
+
+<p>The goal of the program is to create a generic fast food menu and let the user add food items to their order while keeping track of the order’s total fat, sodium, and calorie count.  If any of these amount exceeds the recommended daily intake, then the program would output a warning.  This was done by making the menu a series of objects within objects.  The menu itself is an object, whose keys were food items and values were another object.  These objects are the fat, sodium, and calories of the food items paired with their respective values.  When the user adds an item to their order, it adds the fat, sodium, and calories of the food item to the current order total.  Simple comparisons were made with the daily recommended intake, and warnings produced if current total exceeds the daily recommended intake.</p>
+
+<p>The user order is hardcoded into the program, but is easily changeable.  At the bottom of the code, there is a small section that looks like this:</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">const</span> <span class="n">userOrder</span> <span class="o">=</span> <span class="k">new</span> <span class="nf">fastFoodMenu</span><span class="p">(</span><span class="n">fastFoodItems</span><span class="p">);</span>
+<span class="n">userOrder</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="s">"&lt;item 1&gt;"</span><span class="p">);</span>
+<span class="n">userOrder</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="s">"&lt;item 2&gt;"</span><span class="p">);</span>
+<span class="n">userOrder</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="s">"&lt;item 3&gt;"</span><span class="p">);</span>
+<span class="n">userOrder</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="s">"&lt;item 4&gt;"</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>By modifying the &lt;item #&gt;, the user can tailor their order to their needs.</p>
+
+<p>We worked in groups of two.  Constant communication between my partner and I allowed us to develop the code simultaneously while allowing for discussions as to the best methods to accomplish the requirements.  After some work, we managed to get the program to work correctly, but there are several aspects that could be improved, such as being able to take user input instead of the user having to manually edit their order in the code.</p>
+
+<p>This project was done as a “Workout of the Day” in ICS 314 (Software Engineering 1) at the University of Hawaii at Manoa.  <a href="https://courses.ics.hawaii.edu/ics314f22/morea/javascript-2/inclass-bk-menu.html">You can read the full details of the assignment here</a>.</p>
+
+<p>A link to the <a href="https://jsfiddle.net/galenc12/5ksjvyLz/11/">JSFiddle can be found here</a>.
+Alternatively, the code can be found at <a href="https://github.com/GalenChang/FastFoodMenu">this github repository</a>.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

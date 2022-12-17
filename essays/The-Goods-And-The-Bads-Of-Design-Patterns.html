@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="The Goods and Bads of Design Patterns | Galen Chang | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/GalenChang.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Galen Chang | Professional Portfolio">
+    <meta property="og:url" content="https://GalenChang.github.io/essays/The-Goods-And-The-Bads-Of-Design-Patterns.html">
+    <meta property="og:title" content="The Goods and Bads of Design Patterns | Galen Chang | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/GalenChang.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>The Goods and Bads of Design Patterns | Galen Chang | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Galen Chang</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">The Goods and Bads of Design Patterns</h1>
+  <span class="date">01 Dec 2022</span>
+  <hr>
+  <h2 id="wikipedia---the-most-used-design-pattern">Wikipedia - the Most Used Design Pattern</h2>
+<p align="center">
+    <img width="300px" class="rounded" src="https://i.kym-cdn.com/entries/icons/original/000/001/711/Wikipedia_Logo.png" />
+</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Software_design_pattern">Wikipedia</a> (I know, I know…Wikipedia is not a reliable source) says “a software design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into source or machine code. Rather, it is a description or template for how to solve a problem that can be used in many different situations.”</p>
+
+<p>In an abstract sense, Wikipedia can be considered a research design pattern.  Academia states that Wikipedia is unreliable because it relies on open source editing.  While there are many people who dedicate working on information accuracy and sourcing, I could go in and edit this page to say design patterns are a type of cheese.  But even academics can agree that Wikipedia is a good starting point when you are just starting your research.  Consider the Wikipedia page as a template. You first read about the topic and gain a general sense of what is going on.  Then you look at the plethora of sources Wikipedia lists to back up it’s claims.  Using this information and these sources, you can then pivot and delve further into a specific subtopic.  Several days and pots of coffee later, your paper is done and you have greatly expanded on the basics you first read on Wikipedia.</p>
+
+<h2 id="recreating-the-wheel-vs-using-a-design-pattern">Recreating the Wheel vs Using a Design Pattern</h2>
+<p>So now that we have defined a design pattern as an introductory template that one can use to solve a problem, let us apply it to software engineering.  At its core, software engineering is finding the answers to a series of problems.  If you are creating a calculator program, some of the problems you might have to solve are input, output, addition function, multiplication function, clear screen, etc.</p>
+
+<p>Once you have identified the problems that need to be solved, your next task is to implement the solutions.  Here, you have two options.  You could use the knowledge you have and try to implement a solution.  While this may seem like a good idea and definitely shows of your coding prowess, the second option of utilizing the wheel design pattern is probably the better idea.  Take the addition function.  All languages implement some method of handling addition.  Why waste the time and effort attempting to make your own addition function when you could take the working one adjust it to your needs?</p>
+
+<p align="center">
+    <img width="500px" class="rounded" src="https://miro.medium.com/max/640/1*4WpIB7SzfGwfRIlbP_7u6Q.webp" />
+<br />
+Taken from bastrakof.livejournal.com
+</p>
+
+<h2 id="design-patterns-will-improve-your-quality-of-life">Design Patterns will Improve Your Quality of Life</h2>
+<p>Stackoverflow is my friend, your friend, everybody’s friend.  <a href="https://galenchang.github.io/essays/Writing-Smart-Questions.html">Ask smart questions, get smart answers.</a>  At my beginner level, there really isn’t a software engineering problem out there that I would encounter that hasn’t already been extensively answered and a design template already created for it.  This is a very simple example, but a problem I ran into recently was trying to figure out how to read binary from a file, store it in as hex characters in an array, and parse it for certain tidbits of information.  The design pattern I found was very simple - <a href="https://www.ibm.com/docs/en/zos/2.5.0?topic=functions-fopen-open-file"> read about fopen</a>.  A very basic function that can be used to solve my problem.</p>
+
+<p>Another example would be the current project I am working on.  My group and I are trying to make an application that allows users to find clubs that interest them at the University of Hawaii Manoa.  We are watching the lecture videos to understand how certain features are implemented and integrating it into our application.  How do we create users with certain properties like interests or name?  Well, we could take the schema used in lecture for something entirely different, treat it as a design pattern, and modify it to fit our end goals.</p>
+
+<p>There are other design patterns that you will probably encounter and use throughout your life.  Algorithms are a prime example.  For example, learning how to use the various sorting and searching algorithms to fit your needs.  Or using dynamic programming to solve complex problems repeatedly quicker.  Design patterns are extremely helpful, and you are probably using them without even knowing (like I was).</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

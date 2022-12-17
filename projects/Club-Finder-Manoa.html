@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Club Finder Manoa | Galen Chang | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/GalenChang.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Galen Chang | Professional Portfolio">
+    <meta property="og:url" content="https://GalenChang.github.io/projects/Club-Finder-Manoa.html">
+    <meta property="og:title" content="Club Finder Manoa | Galen Chang | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/GalenChang.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Club Finder Manoa | Galen Chang | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Galen Chang</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Club Finder Manoa</h1>
+ <p align="center">
+    <img width="800px" class="rounded" src="../img/ClubFinderManoa/homepage.png" />
+</p>
+
+<h2 id="what-is-club-finder-manoa">What is Club Finder Manoa?</h2>
+<p>For the final, culminating project of ICS 314 (Software Engineering I) at the University of Hawaii at Manoa, Destynee Jean A. Fagaragan, Gwyneth U. Raquepo , Robert D. Godfrey , Jayson K. Iwanaka, and I, Galen C. Chang, were tasked with solving the problem of creating an application that would provide a centralized repository for the University of Hawaii at Manoa’s 200+ RIOs (Registered Independent Organizations).  Our answer is the Club Finder Manoa app.</p>
+
+<p>Club Finder Manoa is a web application solution to the aforementioned problem that utilizes Meteor, MongoDB, and React-Bootstrap.  Using the application, users can look up information about each club, such as a description, meeting times and locations, contact info, and more.  Users can also filter clubs based on interests or club type, and then save the clubs they are interested in.  If the user is a member of Club leadership, they can also modify the club profile.</p>
+
+<h2 id="my-responsibilities-and-lessons-learned">My Responsibilities and Lessons Learned</h2>
+<p>Using Github repositories to store our code and issues to track requirements and work done to fulfill them, we developed the application over the course of six weeks.  I was responsible for several tasks, including schema modification, stylistic edits to the pages, and the creation of several pages that interacted with the backend MongoDB databases.  Of all these, the two most complex pages I made were the Edit User Profile and Edit Club pages.  For both of these pages, I had to learn how to pull specific bits of information from the MongoDB databases and how to use React-Bootstrap forms and code to present to the user the most intuitive way to change their information.  This includes showing the current data, accepting the current data if the user does not want to change it (I ran into several issues where if the user did not change a field, the current data would be wiped like the user intentionally left the field blank), and options or text fields for the user to change the data.  This turned into learning how to implement and modify the backend schemas, as several of the methods we thought were good ended up being less than ideal.</p>
+
+<p>Aside from code specific lessons learned, it was a very eye opening experience to work with others in a development environment.  I have previous experience working in groups, but everyone could largely do their own thing and then the day before presentation day, we would get together and quickly merge everything together.  Here, a change to one file could dramatically affect how the application as a whole worked.  Constant communication was essential.  We all had to be available to answer questions regarding the files we were working on.  For instance, I had made changes to the schema so some of my pages would work.  I chose to commit an incomplete (but fully functional) branch to main because I made changes that were core changes to the program, and the work the others were doing were reliant on my changes.</p>
+
+<h2 id="want-to-learn-more">Want to Learn More?</h2>
+<p><a href="https://club-finder-manoa.github.io/">If you would like to learn more about Club Finder Manoa, you can read about it on our project homepage.</a></p>
+
+<p><a href="https://github.com/club-finder-manoa/club-finder-manoa">And the source code can be found here.</a></p>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

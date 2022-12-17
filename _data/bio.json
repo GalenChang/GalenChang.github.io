@@ -1,0 +1,109 @@
+{
+  "basics": {
+    "name": "Galen Chang",
+    "label": "Computer Science Student",
+    "picture": "https://github.com/GalenChang.png",
+    "email": "gchang7@hawaii.edu",
+    "phone": "808-429-5931",
+    "website": "https://GalenChang.github.io",
+    "summary": [
+      "<p>Prior 17C (Cyber Operations) in the U.S. Army</p><p></p><p>Currently studying Computer Science at the University of Hawaii at Manoa.<p></p><p>Expected graduation is in Spring, 2024.</p>"
+    ],
+    "location": { "address": "94-1042 Nawele Street", "postalCode": "96797", "city": "Waipahu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "GalenChang", "url": "http://github.com/GalenChang" },
+      { "network": "linkedin", "username": "galenchang", "url": "https://www.linkedin.com/in/galenchang/" }
+    ]
+  },
+  "interests": [
+    { "name": "Cybersecurity" },
+    { "name": "Penetration Testing" },
+    { "name": "Software Engineering" },
+    { "name": "Korean Language and Culture" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript", "Python", "MongoDB", "React/Bootstrap" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "Windows", "Linux", "Git/GitHub" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii at Manoa, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2024)",
+      "studyType": "B.S.",
+      "startDate": "2020-09",
+      "endDate": "Present",
+      "courses": ["Programming Courses using Java and Python", "Program Structure using C/C++", "Software Engineering", "Algorithms", "Discrete Math", "Korean" ]
+    },
+    {
+      "institution": "Hawaii Pacific University, Honolulu, HI",
+      "area": "Biology",
+      "studyType": "B.S. with Honors (Cum Laude)",
+      "startDate": "2010-09",
+      "endDate": "2014-05",
+      "courses": ["Organic Chemistry", "Molecular Biology", "Human Anatomy and Physiology", "Biochemistry", "Genetics", "Korean"]
+    }
+  ],
+  "work": [
+    {
+      "company": "Hawaii Air National Guard",
+      "position": "1D7X1B - Systems Operations",
+      "website": "",
+      "startDate": "2022-05-20",
+      "endDate": "Present",
+      "summary": "Provide network defense for Hawaii Air National Guard systems and customers.",
+      "highlights": [
+        "Identify and eliminate intrusions or compromises.",
+        "Give security recommendations to customers to prevent recurrence.",
+        "Write mid level summaries of events and steps taken to mitigate/eliminate threat."
+      ]
+    },
+    {
+      "company": "U.S. Army",
+      "position": "17C - Cyber Operations",
+      "website": "",
+      "startDate": "2014-07-28",
+      "endDate": "2020-10-27",
+      "summary": "Trained to execute offensive cyber operations (OCO) and accomplished numerous computer network exploitation (CNE) objectives to satisfy national requirements in support of foreign intelligence efforts.",
+      "highlights": [
+        "NSA and USCC certified senior exploitation operator and trainer.",
+        "Conducted quality assurance and assisted in development of CNE tools and techniques.",
+        "Wrote standard operating procedure and policy for tradecraft, exploitation, and tool usage/testing.",
+        "Performed basic malware analysis in order to ascertain functionality, footprint, and persistence methods."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Professional Student Organization Involvement",
+      "website": "",
+      "position": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Member, PANDA (Programming and Algorithms) at the University of Hawai'i at Manoa, 2022-Present",
+        "Member, Grey Hats at the University of Hawai'i at Manoa, 2022-Present",
+        "Club Representative, Anime Manga Society of Hawai'i at the University of Hawai'i at Manoa, 2022-Present"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Various U.S. Army Awards",
+      "date": "2014-2020",
+      "awarder": "U.S. Army",
+      "summary": "Awards for both military performance and occupational specialty."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
